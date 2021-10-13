@@ -1,0 +1,4 @@
+zapytanie1 - SELECT nazwa, wystepowanie FROM ryby WHERE styl_zycia=1;
+zapytanie2 - SELECT Ryby_id, wymiar_ochronny FROM Okres_ochronny WHERE wymiar_ochronny<50;
+zapytanie3 - SElECT Ryby.nazwa FROM Ryby JOIN Lowisko ON Ryby.id=Lowisko.Ryby_id WHERE LOWISKO.rodzaj=2;
+zapytanie4 - ALTER TABLE Ryby ADD COLUMN dobowy_limit INT;
